@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    margin: 50px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: absolute;
+    
+    left: 55%;
+}
+
+.bottom-cloud{
+    position: absolute; 
+    
+    
+}
+
+
+.top-container{
+    background-color: rgb(117, 235, 248);
+    padding-top: 100px;
+    
+    
+}
+
+.middle-container{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-container{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}

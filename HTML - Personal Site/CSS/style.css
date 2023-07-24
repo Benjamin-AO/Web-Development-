@@ -1,0 +1,29 @@
+body{
+    background-color: #DDDDDD;
+}
+
+h1{
+    color: #8e08cc;
+}
+
+h3{
+    color: #66BFBF;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+/*--------- class selector--------------*/
+
+.passport:hover{
+    background-color: #082fcc;
+}
+
+.myName:hover{
+    background-color: rgb(0, 255, 221);
+}

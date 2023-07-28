@@ -67,14 +67,20 @@ span{
 .code-icon{
     height: 200px;
     width: 200px;
-    margin: auto;
+    margin-right: 30px;
+    float: left
 }
 
 .web-icon{
     height: 200px;
     width: 200px;
+    float: right;
+    margin-right: 30px;
 }
 
+.udemy-info{
+    margin-top: 0px;
+}
 
 .middle-container{
     

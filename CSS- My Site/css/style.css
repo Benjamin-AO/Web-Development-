@@ -1,14 +1,41 @@
 body{
     margin: 0;
     text-align: center;
+    font-family: 'Merriweather', serif;;
 }
 
 h1{
-    margin: 50px;
+    color:rgb(85, 83, 240);
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%; 
+}
+
+h2{
+    color:rgb(85, 83, 240);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+h3{
+   
+    font-family: 'Montserrat', sans-serif;
+    font-weight: ;
+    
+}
+
+span{
+    font-weight: bold;   
 }
 
 .pro{
     text-decoration: underline;
+    text-decoration-thickness: from-font;
+    
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 .top-cloud{
@@ -17,28 +44,48 @@ h1{
     left: 55%;
 }
 
+
+.top-container{
+    background-color: rgb(117, 235, 248);
+    position: relative;
+    padding-top: 100px;   
+}
+
+.my-picture{
+    height: 100px;
+    width: 100px;
+
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-icon{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+.web-icon{
+    height: 200px;
+    width: 200px;
+}
+
+
+.middle-container{
+    
+}
+
+.bottom-container{
+    
+}
+
 .bottom-cloud{
     position: absolute; 
     
     
-}
-
-
-.top-container{
-    background-color: rgb(117, 235, 248);
-    padding-top: 100px;
-    
-    
-}
-
-.middle-container{
-    background-color: blue;
-    height: 200px;
-    width: 200px;
-}
-
-.bottom-container{
-    background-color: red;
-    height: 200px;
-    width: 200px;
 }

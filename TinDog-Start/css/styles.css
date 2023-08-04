@@ -1,30 +1,15 @@
 body{
     font-family: "Montserrat-Black";
+    text-align: center;
 }
 
-#title{
-    background-color: rgb(93, 42, 165);
-    color: #fff;
-}
-
-.container-fluid{
-    padding: 3% 15% 7%;
-}
-
-h1{
+h1, h2, h3, h4, h5, h6{
     font-family: "Montserrat";
-    font-size: 3.5rem;
-    line-height: 1.5;
 }
 
-h2{
-    font-family: "Montserrat";
-    font-size: 3rem;
-    line-height: 1.5;
-}
 
 h3{
-    font-family: "Montserrat";
+
     font-size: 1.5rem;
 }
 
@@ -32,9 +17,38 @@ p{
     color: rgb(155, 155, 155);
 }
 
+/* Container */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+/* Sections */
+.colored-section{
+    background-color: rgb(93, 42, 165);
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
+/* Headings */
+.big-heading{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
 /* Navigation Bar */
 .navbar{
-    /*padding: 0 0 4.5rem 0;*/
     margin-bottom: 4.5rem;
 }
 
@@ -46,7 +60,6 @@ p{
 
 .nav-item{
     padding: 0 18px;
-    
 }
 
 .nav-link{
@@ -54,12 +67,14 @@ p{
     font-family: "Montserrat-light";
 }
 
-/* Download Buttons */
-.download-button{
-    margin: 5% 3% 5% 0;
+
+/* Title Section-*/
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
 }
 
-/* Title image */
 .title-image{
     width: 60%;
     transform: rotate(25deg);
@@ -67,25 +82,35 @@ p{
     right: 30%;
     
 }
- 
-/* --------- Features Section --------------- */
 
-#features{
-    padding: 7% 15%;
-    background-color: #fff;
-    position: relative;
-   
+
+/* Download Buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+    font-family: "ubuntu";
 }
 
-.features-writtings{
-    text-align: center;
-        
+
+/* Press */
+
+#press{
+    padding-bottom: 3%;
+}
+ 
+
+/* Features Section */
+
+#features{
+    position: relative;
+}
+
+.feature-title{
+    font-size: 1.5rem;
 }
 
 .icon{
     color: #ef8172;
     margin-bottom: 1rem;
-    
 }
 
 .icon:hover{
@@ -93,13 +118,11 @@ p{
 }
 
 
-/* ----------- Testimonials Section ---------------- */
+/* Testimonials Section */
 
-#testimonials{
-    
-    text-align: center;
-    background-color: rgb(93, 42, 165);
-    color: #fff;
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-image{
@@ -108,13 +131,10 @@ p{
     margin: 20px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
 
-#press{
-    background-color: rgb(93, 42, 165);
-    text-align: center;
+/* Press Section */
+
+#press{ 
     padding-bottom: 3%;
 }
 
@@ -123,11 +143,53 @@ p{
     margin: 50px 20px 20px;
 }
 
+
+/* Pricing Section */
+
 #pricing{
-    padding: 100px;
-    text-align: center;
+    padding: 100px 200px;
 }
  
+.price-card-header-text{
+    font-size: 1.5rem;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 .pricing-column{
     padding: 3% 2%;
+}
+
+
+/* CTA Section */
+
+#cta{
+    padding-top: 3%;
+}
+
+.cta-download{
+    padding: 3% 30% 0;
+}
+
+
+/* Footer Section */
+
+.social-handle{
+    padding: 1% 40% 1%;
+}
+
+
+/* Media Querry */
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
 }
